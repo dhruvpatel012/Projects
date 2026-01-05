@@ -1,0 +1,3051 @@
+ /* X-Small devices (portrait phones, less than 576px) */
+ /* No media query for `xs` since this is the default in Bootstrap */
+
+
+ @media (min-width: 385px) and (max-width: 576px) {
+      /* <!----------------- MAIN-START ---------------> */
+     .container {
+         max-width: 576px;
+         margin: 0 auto;
+         margin-top: 30px;
+     }
+
+     .main-card {
+         flex: 0 0 calc(90% - 40px);
+         height: 470px;
+     }
+
+     .card-image {
+         width: 100%;
+         height: 200px;
+     }
+       /* <!----------------- MAIN-END ---------------> */
+ }
+
+
+
+ /* <!----------- luxury-car-section -----------> */
+ @media (min-width: 392px) and (max-width: 430px) {
+     .car-model-item img {
+        width: 100%;
+        max-width: 253px;
+         left: 90px;
+     }
+
+     .car-model-details{
+        bottom: 150px;
+     }
+ }
+
+ @media (min-width: 431px) and (max-width: 460px) {
+     .car-model-item img {
+         left: 90px;
+     }
+ }
+
+
+ @media (min-width: 461px) and (max-width: 500px) {
+     .car-model-item img {
+         left: 130px;
+     }
+ }
+
+ @media (min-width: 501px) and (max-width: 530px) {
+     .car-model-item img {
+         left: 170px;
+     }
+ }
+
+ @media (min-width: 531px) and (max-width: 576px) {
+     .car-model-item img {
+         left: 200px;
+     }
+ }
+
+ /* <!-------------- luxury-car-section-end --------------> */
+
+
+
+
+ @media (min-width: 512px) and (max-width: 576px) {
+     /* <!--------------header-start-----------------> */
+
+     .subtitle {
+         width: 420px;
+     }
+      /* <!--------------header-end-----------------> */
+ }
+
+
+
+
+
+
+ /* Small devices (landscape phones, 576px and up)*/
+ @media (min-width: 576px) {
+
+     /* <!----------------Navbar-Start-----------------> */
+
+     .navbar {
+         padding: 18px 25px;
+         height: 90px;
+     }
+
+     .hamburger-btn,
+     .star-icon,
+     .location-icon,
+     .user-icon {
+         font-size: 26px;
+         width: 45px;
+         height: 45px;
+     }
+
+     .logo-icon {
+         font-size: 32px;
+     }
+
+     .sidebar-menu {
+         top: 101px;
+         left: 0px;
+         width: 100%;
+         max-width: 450px;
+         height: 100vh;
+         transform: translateX(-100%);
+     }
+
+     .sidebar-menu.active {
+         transform: translateX(7%);
+     }
+
+      /* <!----------------Navbar-END-----------------> */
+
+
+     /* <!--------- header-start ---------> */
+
+     .card-bottom {
+         width: 100%;
+         padding: 0px 20px;
+         margin-top: -3px;
+         height: 180px;
+
+     }
+
+     .card-text {
+         margin-top: -50px;
+     }
+
+     .card-text h1 {
+         margin: 0 auto;
+         font-size: 30px;
+         color: #ffffff;
+         margin-bottom: 10px;
+         width: 89%;
+     }
+
+     .subtitle {
+         font-size: 16px;
+         width: 100%;
+         margin: 0 auto;
+     }
+
+     .btn {
+         max-width: 530px;
+         padding: 14px 30px;
+         margin-top: 60px;
+
+     }
+
+     .brand img {
+         height: 50px;
+     }
+
+     /* <!----------- header-end ------------> */
+
+
+     /*------------ main-start --------------*/
+
+     .carousel-container {
+         display: flex;
+         gap: 0px;
+     }
+
+     .card-image {
+         width: 100%;
+         height: 300px
+     }
+
+     .main-card {
+         flex: 0 0 calc(80% - 30px);
+         margin-left: 20px;
+     }
+
+     .main-card:last-child {
+         margin-right: 20px;
+     }
+
+     /*-------------- main-end ----------------*/
+     
+
+     /*------------- luxury-car-section ------------*/
+     .luxury-car-wrapper {
+         max-width: 100%;
+         /* Full width for small tablets */
+         padding: 40px 30px;
+     }
+
+     .luxury-car-header h1 {
+         font-size: 26px;
+     }
+
+     /* Model Information Section */
+     .car-model-details {
+         position: relative;
+         bottom: 180px;
+         text-align: left;
+     }
+
+     .car-model-title {
+         font-size: 28px;
+     }
+
+     .car-model-item img {
+         left: 55%;
+     }
+
+     /*------------- luxury-car-section-end ---------*/
+
+
+     /*----------------- GLA 200,C 200,GLE 300d-SECTION-START ----------- */
+     .car-slider-wrapper {
+         max-width: 420px;
+     }
+
+     .car-card-item {
+         min-width: 97%;
+     }
+
+     .car-card-item {
+         padding: 22px;
+     }
+
+     /*------------------ GLA 200,C 200,GLE 300d-SECTION-END------------- */
+
+
+
+     /* <!---------- Service and accessories-SECTION ---------> */
+     .service-area {
+         max-width: 720px;
+         margin: 0 auto;
+         margin-top: 90px;
+         margin-left: 10px;
+     }
+
+     .service-title {
+         margin-left: 20px;
+     }
+
+     .service-slide {
+         min-width: 100%;
+         padding: 17px;
+         margin: 0 auto;
+
+     }
+
+     .service-img {
+         height: 240px
+     }
+
+     .arrow-btn {
+         top: 53%;
+     }
+
+     .arrow-left {
+         left: 40px
+     }
+
+     .arrow-right {
+         right: 40px
+     }
+
+     /* <!------------- Service and accessories-END ------------> */
+
+
+     /* <!------------ DEFINING CLASS since 1886-SECTION-START -------------> */
+     .outer-box {
+         max-width: 760px;
+         padding: 0 26px;
+     }
+
+     .mini-head {
+         font-size: 24px;
+         margin-bottom: 20px;
+     }
+
+     /* <!------- DEFINING CLASS since 1886-SECTION-END ------> */
+
+
+
+     /* <!----------- Disclaimer-SECTION-START ----------> */
+     .disclaimer-container {
+         max-width: 740px;
+         margin: 80px 15px 0px 15px;
+     }
+
+     /* <!------------ Disclaimer-SECTION-END -----------> */
+
+
+
+     /* <!-------------- Services-SECTION-START ------------> */
+     .svc-cards-grid {
+         grid-template-columns: repeat(2, 1fr);
+         gap: 20px;
+     }
+
+     .svc-card {
+         padding: 30px 20px;
+     }
+
+     .svc-card-title {
+         font-size: 18px;
+     }
+
+     .svc-card-description {
+         font-size: 14px;
+     }
+
+     /* <!----------- Services-SECTION-END ----------> */
+
+
+
+     /* <!--------FOOTER-SECTION-START--------->*/
+     footer {
+         padding: 60px 20px;
+     }
+
+     .footer-container {
+         grid-template-columns: repeat(2, 1fr);
+     }
+
+     .footer-container {
+         gap: 30px;
+     }
+
+     .footer-container {
+         padding: 0 20px;
+     }
+
+     .sticky-buttons {
+         right: 30px;
+     }
+
+     .sticky-buttons {
+         bottom: 50px;
+     }
+
+     .sticky-btn {
+         width: 50px;
+     }
+
+     .sticky-btn {
+         height: 50px;
+     }
+
+     .sticky-btn {
+         font-size: 24px;
+     }
+
+     /* <!----------FOOTER-SECTION-END--------> */
+ }
+
+
+
+ /* Medium devices (tablets, 768px and up)*/
+ @media (min-width: 768px) {
+  /* <!----------------Navbar-Start-----------------> */
+     .navbar {
+         padding: 20px 60px;
+     }
+
+     .hamburger-btn,
+     .star-icon,
+     .location-icon,
+     .user-icon {
+         font-size: 24px;
+         width: 40px;
+         height: 40px;
+     }
+
+     .star-icon {
+         display: none;
+     }
+
+     .star-icon-right {
+         background: none;
+         border: none;
+         color: #fff;
+         font-size: 29px;
+         cursor: pointer;
+         width: 20px;
+         height: 20px;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         transition: opacity 0.3s;
+     }
+
+     .logo-icon {
+         font-size: 36px;
+         margin-left: 180px;
+     }
+
+     .private {
+         color: white;
+         display: block;
+         padding-left: 10px;
+         background: none;
+     }
+
+
+     .menu-header {
+         padding: 50px 30px 0px 30px;
+     }
+
+     .menu-title {
+         font-size: 28px;
+     }
+
+     .search-box {
+         padding: 12px 18px;
+         /* margin: 30px; */
+     }
+
+     .sidebar-menu {
+         top: 93px;
+         left: 0px;
+         width: 100%;
+         max-width: 450px;
+         height: 100vh;
+     }
+
+
+     .sidebar-menu.active {
+         transform: translateX(7%);
+     }
+      /* <!----------------Navbar-End-----------------> */
+
+
+     /* <!----------- header-start --------------> */
+
+     .menu-item {
+         padding: 18px 0;
+     }
+
+     .menu-item-text {
+         font-size: 17px;
+     }
+
+     .card-text {
+         position: relative;
+         top: -70px;
+     }
+
+     .img-phone {
+         display: none;
+     }
+
+     .img-tablets {
+         display: block;
+     }
+
+     .card-bottom {
+         width: 100%;
+         padding: 0px 20px;
+         margin-top: -3px;
+         height: 205px;
+
+     }
+
+     .card-text {
+         text-align: left;
+         margin-top: -50px;
+     }
+
+     .card-text h1 {
+         margin: 0 auto;
+         font-size: 35px;
+         color: #ffffff;
+         margin-bottom: 20px;
+         width: 49%;
+         margin-left: 30px;
+     }
+
+     .subtitle {
+         font-size: 16px;
+         width: 50%;
+         margin: 0 auto;
+         margin-left: 30px;
+     }
+
+     .btn {
+         max-width: 740px;
+         padding: 14px 30px;
+         margin-top: 0px;
+     }
+
+     .brand {
+         border: 2px solid gray;
+         width: 180px;
+         height: 50px;
+     }
+
+     .brand img {
+         height: 50px;
+     }
+
+     /* <!-------------- header-end ---------------> */
+
+     /*---------------- main-start ----------------*/
+     .container {
+         margin-top: 40px;
+     }
+
+     .main-card {
+         flex: 0 0 calc(46% - 6px);
+         min-height: 550px;
+     }
+
+     .card-image {
+         height: 350px;
+     }
+
+     .card-buttons {
+         display: flex;
+         flex-direction: row;
+         margin-top: 10px;
+     }
+
+     /*---------------- main-end -----------------*/
+
+
+
+     /*---------------- luxury-car-section---------------- */
+
+     /* Container adjustments - grows with screen */
+     .luxury-car-wrapper {
+         max-width: 100%;
+         /* Full width for tablets */
+         padding: 50px 40px;
+         height: 700px;
+         margin: 0 auto;
+     }
+
+     /* Header adjustments */
+     .luxury-car-header h1 {
+         font-size: 30px;
+     }
+
+     /* Model cards become horizontal layout */
+     .car-model-item {
+         display: flex;
+         flex-direction: row;
+         flex-wrap: wrap;
+         align-items: center;
+         width: 330px;
+         justify-content: space-between;
+         /* Space between text and image */
+         gap: 30px;
+         padding: 20px;
+         margin-top: 80px;
+     }
+
+     .car-model-item img {
+         width: auto;
+         /* Don't stretch image */
+         max-width: 300px;
+         /* Fixed max width for image */
+         margin-bottom: 0;
+         flex-shrink: 0;
+         /* Prevent image from shrinking */
+         order: 2;
+         /* Move image to right side */
+
+         position: relative;
+         bottom: 210px;
+         left: 50px;
+     }
+
+     #Limousine {
+         max-width: 48%;
+     }
+
+     #SUV-Range {
+         position: relative;
+         bottom: 180px;
+         left: 360px;
+         width: 48%;
+     }
+
+     #Cabriolets {
+         position: relative;
+         bottom: 180px;
+     }
+
+     #Cabriolets img {
+         position: relative;
+         bottom: 250px;
+     }
+
+     #Cabriolets .car-model-details {
+         position: relative;
+         bottom: 40px;
+     }
+
+
+     .car-model-details {
+         flex: 1;
+         /* Text section takes remaining space */
+         order: 1;
+         /* Keep text on left side */
+         bottom: 0px;
+     }
+
+     .car-model-title {
+         font-size: 30px;
+     }
+
+     /* Buttons become horizontal */
+     .luxury-car-actions {
+         flex-direction: row;
+         position: relative;
+         bottom: 200px;
+     }
+
+     .luxury-car-btn {
+         flex: 1;
+     }
+
+     /*-------------- luxury-car-section-end ---------------*/
+
+     /*-------------- GLA 200,C 200,GLE 300d-SECTION-START -----------*/
+     .car-slider-wrapper {
+         max-width: 760px;
+     }
+
+     /* use 1/2 bar and hide 1/3 bar */
+     .car-nav-mobile {
+         display: none;
+     }
+
+     .car-nav-tablet {
+         display: flex;
+     }
+
+     .car-cards-row {
+         gap: 24px;
+         max-width: 45%;
+         margin: 0 auto;
+         margin-top: 90px;
+     }
+
+     .car-card-item {
+         max-width: 360px;
+         padding: 24px;
+     }
+
+     .car-card-title-2 {
+         position: relative;
+         top: 8px;
+     }
+
+     .car-card-meta-2 {
+         position: relative;
+         top: 10px;
+     }
+
+
+     .car-card-warning-2 {
+         position: relative;
+         top: 10px;
+     }
+
+     .car-card-features-2 {
+         position: relative;
+         top: 13px;
+     }
+
+     .hr-2 {
+         position: relative;
+         top: 13px;
+     }
+
+     .cta-2 {
+         position: relative;
+         top: 12px;
+     }
+
+
+     /* SLIDE 1: show card1 + card2 */
+     #car-slide-1:checked~.car-cards-row .car-card-item {
+         display: none;
+     }
+
+     #car-slide-1:checked~.car-cards-row .car-card-item:nth-child(1),
+     #car-slide-1:checked~.car-cards-row .car-card-item:nth-child(2) {
+         display: block;
+         flex: 0 0 calc(50% - 12px);
+     }
+
+     /* SLIDE 2: show card3 only */
+     #car-slide-2:checked~.car-cards-row .car-card-item {
+         display: none;
+     }
+
+     #car-slide-2:checked~.car-cards-row .car-card-item:nth-child(3) {
+         display: block;
+         flex: 0 0 100%;
+         max-width: 420px;
+     }
+
+     /* SLIDE 3: not used on tablet -> hide all */
+     #car-slide-3:checked~.car-cards-row .car-card-item {
+         display: none;
+     }
+
+     /* TABLET ARROWS: enable/disable */
+     .car-nav-tablet .car-nav-arrow,
+     .car-nav-tablet .car-nav-arrow-disabled {
+         display: none;
+     }
+
+     /* when 1/2 shown -> left disabled, right active */
+     #car-slide-1:checked~.car-nav-tablet .car-left-disabled,
+     #car-slide-1:checked~.car-nav-tablet .car-right-to-2 {
+         display: inline-block;
+     }
+
+     /* when 2/2 shown -> left active, right disabled */
+     #car-slide-2:checked~.car-nav-tablet .car-left-to-1,
+     #car-slide-2:checked~.car-nav-tablet .car-right-disabled {
+         display: inline-block;
+     }
+
+     /* PAGE TEXT 1/2, 2/2 */
+     .car-nav-tablet .car-nav-page {
+         display: none;
+     }
+
+     #car-slide-1:checked~.car-nav-tablet .car-page-1-2,
+     #car-slide-2:checked~.car-nav-tablet .car-page-2-2 {
+         display: inline-block;
+     }
+
+     /*---------------- GLA 200,C 200,GLE 300d-SECTION-END ---------------*/
+
+
+     /* <!--------- Can't find a suitable vehicle?-SECTION --------------> */
+     .suitable-vehicle {
+         display: flex;
+         justify-content: space-between;
+         background-color: #eeeeee5d;
+         padding: 10px;
+         width: 90%;
+         margin: 0 auto;
+         margin-top: 40px;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     }
+
+
+     .suitable-text p {
+         width: 300px;
+         font-size: 12px;
+     }
+
+
+     .suitable-btn {
+         margin-top: 10px;
+         padding: 0px 20px;
+         width: 100%;
+         max-width: 330px;
+     }
+
+     .suitable-btn button {
+         width: 100%;
+         padding: 14px 0px;
+         font-size: 16px;
+         font-weight: 600;
+
+     }
+
+     /* <!------- Can't find a suitable vehicle?-END ----------> */
+
+
+
+
+     /* <!------------- Service and accessories-SECTION -----------> */
+
+     .service-area {
+         max-width: 980px;
+         margin: 0 auto;
+         margin-top: 90px;
+         margin-left: 10px;
+     }
+
+     .service-title {
+         margin-left: 20px;
+     }
+
+     .service-slide {
+         min-width: 100%;
+         padding: 17px;
+         margin: 0 auto;
+
+     }
+
+     .service-img {
+         height: 470px
+     }
+
+     .service-title {
+         font-size: 28px
+     }
+
+
+     .arrow-btn {
+         top: 58%;
+     }
+
+     .arrow-left {
+         left: 60px
+     }
+
+     .arrow-right {
+         right: 60px
+     }
+
+     /* <!----------- Service and accessories-END ------------>  */
+
+
+
+     /* <!----------- DEFINING CLASS since 1886-SECTION-START ----------> */
+     .outer-box {
+         max-width: 980px;
+         padding: 0 26px;
+     }
+
+     .mini-head {
+         font-size: 27px;
+         margin-bottom: 20px;
+     }
+
+     /* <!------------- DEFINING CLASS since 1886-SECTION-END -----------> */
+
+
+     /* <!------------- Disclaimer-SECTION-START--------------> */
+     .disclaimer-container {
+         max-width: 940px;
+         margin: 0 30px;
+         padding: 0px;
+         position: relative;
+         top: 40px;
+     }
+
+     .disclaimer-title {
+         font-size: 19px;
+     }
+
+     .disclaimer-text {
+         font-size: 15px;
+     }
+
+     /* <!------------ Disclaimer-SECTION-END-------------> */
+
+
+     /* <!------------ Services-SECTION-START-------------> */
+     .svc-cards-grid {
+         grid-template-columns: repeat(2, 1fr);
+         gap: 25px;
+         position: relative;
+         top: 50px;
+     }
+
+     .svc-card {
+         width: 100%;
+         margin: 0 auto;
+         padding: 35px 25px;
+     }
+
+     .svc-card-title {
+         font-size: 19px;
+     }
+
+     .svc-card-description {
+         font-size: 15px;
+     }
+
+     /* <!----------- Services-SECTION-END -------------> */
+
+
+
+     /* <!--------FOOTER-SECTION-START--------->*/
+     footer {
+         padding: 60px 30px;
+     }
+
+     .footer-container {
+         grid-template-columns: repeat(3, 1fr);
+     }
+
+     .footer-container {
+         gap: 40px;
+     }
+
+     .footer-container {
+         padding: 0 30px;
+     }
+
+     .sticky-buttons {
+         right: 40px;
+     }
+
+     .sticky-buttons {
+         bottom: 60px;
+     }
+
+     .sticky-btn {
+         width: 56px;
+     }
+
+     .sticky-btn {
+         height: 56px;
+     }
+
+     .sticky-btn {
+         font-size: 28px;
+     }
+
+     .footer-bottom {
+         flex-direction: row;
+     }
+
+     .footer-bottom {
+         justify-content: space-between;
+     }
+
+     .footer-bottom {
+         align-items: center;
+     }
+
+     .footer-bottom-left {
+         flex-direction: row;
+     }
+
+     .footer-bottom-left {
+         gap: 20px;
+     }
+
+     /* <!----------FOOTER-SECTION-END--------> */
+
+ }
+
+ @media (min-width: 885px) and (max-width: 992px) {
+
+     /* <!----------- header-start ------------> */
+     .card-bottom {
+         width: 100%;
+         padding: 0px 20px;
+         margin-top: -3px;
+         height: 155px;
+     }
+
+     .card-text {
+         text-align: left;
+         margin-top: -50px;
+     }
+
+     .card-text h1 {
+         margin: 0 auto;
+         font-size: 35px;
+         color: #ffffff;
+         margin-bottom: 20px;
+         width: 59%;
+         margin-left: 30px;
+     }
+
+     .subtitle {
+         font-size: 16px;
+         width: 60%;
+         margin: 0 auto;
+         margin-left: 30px;
+     }
+
+     .btn {
+         max-width: 740px;
+         padding: 14px 30px;
+         margin-top: 25px;
+
+     }
+
+     .brand {
+         border: 2px solid gray;
+         width: 180px;
+         height: 50px;
+     }
+
+     /* <!------------- header-end ---------------> */
+ }
+
+
+ /* <----------- luxury-car-section-for-id ---------- */
+ @media (min-width: 850px) and (max-width: 900px) {
+
+     #Limousine {
+         width: 48%;
+     }
+
+     #SUV-Range {
+         position: relative;
+         bottom: 180px;
+         left: 410px;
+         width: 48%;
+     }
+ }
+
+ @media (min-width: 901px) and (max-width: 950px) {
+
+     #Limousine {
+         width: 45%;
+     }
+
+     #SUV-Range {
+         position: relative;
+         bottom: 180px;
+         left: 425px;
+         width: 48%;
+     }
+ }
+
+ @media (min-width: 951px) and (max-width: 992px) {
+
+     #Limousine {
+         width: 45%;
+     }
+
+     #SUV-Range {
+         position: relative;
+         bottom: 180px;
+         left: 445px;
+         width: 48%;
+     }
+ }
+
+ /* <-------------- luxury-car-section-for-id-end -------------> */
+
+
+
+
+ /* Large devices (desktops, 992px and up)*/
+ @media (min-width: 992px) {
+  /* <!----------------Navbar-Start-----------------> */
+     .navbar {
+         padding: 22px 35px;
+     }
+
+     .hamburger-btn,
+     .star-icon,
+     .location-icon,
+     .user-icon {
+         font-size: 30px;
+         width: 55px;
+         height: 55px;
+     }
+
+     .star-icon {
+         display: none;
+     }
+
+     .star-icon-right {
+         background: none;
+         border: none;
+         color: #fff;
+         font-size: 29px;
+         cursor: pointer;
+         width: 20px;
+         height: 20px;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         transition: opacity 0.3s;
+     }
+
+     .logo-icon {
+         font-size: 40px;
+     }
+
+     .private {
+         display: none;
+     }
+
+     .private-1 {
+         color: white;
+         display: block;
+         padding-left: 10px;
+         font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+     }
+
+
+     .sidebar-menu {
+         max-width: 550px;
+     }
+      /* <!----------------Navbar-End-----------------> */
+
+
+     /* <!------------- header-start --------------> */
+     .menu-header {
+         padding: 50px 30px 0px 30px;
+     }
+
+     .menu-title {
+         font-size: 30px;
+     }
+
+     .search-box {
+         padding: 13px 20px;
+         margin: 35px;
+     }
+
+     .menu-item {
+         padding: 20px 0;
+     }
+
+     .menu-item-text {
+         font-size: 18px;
+     }
+
+     .img-phone {
+         display: none;
+     }
+
+     .img-tablets {
+         display: none;
+     }
+
+     .img-992-1200 {
+         display: block;
+     }
+
+     .card-bottom {
+         border: none;
+         position: relative;
+         width: 100%;
+         height: 10px;
+     }
+
+     .card-text {
+         position: relative;
+         top: -350px;
+     }
+
+     .card-text h1 {
+         width: 39%;
+         font-size: 50px;
+         line-height: 60px;
+         margin-left: 45px;
+     }
+
+     .subtitle {
+         font-size: 18px;
+         margin-top: 26px;
+         margin-left: 48px;
+         width: 400px;
+     }
+
+     .btn {
+         position: relative;
+         top: 40px;
+         margin-left: 50px;
+         border-radius: 2px;
+         width: 180px;
+         font-size: 16px;
+     }
+
+     .center-btn {
+         display: none;
+     }
+
+     .left-btn {
+         display: block;
+     }
+
+
+
+     /* <!--============== CAR-CHOICE-START====================--> */
+     .car-choice {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         position: relative;
+         bottom: 240px;
+         width: 400px;
+     }
+
+     .brand svg:first-child {
+         width: 140px;
+         padding-left: 0px;
+     }
+
+     .brand img {
+         margin-top: -5px;
+         width: 95px;
+         height: 45px;
+         padding-left: 8px;
+     }
+
+     /* <!--============== CAR-CHOICE-END====================--> */
+
+     /* <!-----------------header-end--------------------> */
+
+
+
+     /* <!--------------- main-992 to up-(width) start ----------------> */
+
+     .container {
+         display: none;
+     }
+
+     .recommendations-container {
+         display: block;
+         margin-top: 30px;
+         max-width: 900px;
+     }
+
+     .recommendations-grid {
+         display: grid;
+         grid-template-columns: repeat(2, 1fr);
+         grid-template-rows: auto auto;
+         gap: 24px;
+     }
+
+     .vehicle-item:nth-child(1) {
+         grid-column: 1;
+         grid-row: 1;
+         min-height: 420px;
+         width: 590px;
+     }
+
+     .vehicle-item:nth-child(2) {
+         grid-column: 2;
+         grid-row: 1;
+         min-height: 420px;
+     }
+
+     .vehicle-item:nth-child(3) {
+         grid-column: 1 / 3;
+         grid-row: 2;
+         min-height: 420px;
+         display: grid;
+         grid-template-columns: repeat(3, 1fr);
+         gap: 24px;
+         width: 33%;
+     }
+
+     /* .vehicle-item:nth-child(3)::after {
+         content: '';
+         grid-column: 1 / -1;
+     } */
+
+     .vehicle-item:nth-child(4) {
+         grid-column: 1;
+         grid-row: 2;
+         min-height: 420px;
+         width: 47%;
+         position: relative;
+         left: 315px;
+     }
+
+     .vehicle-item:nth-child(5) {
+         grid-column: 2;
+         grid-row: 2;
+         min-height: 420px;
+     }
+
+     .vehicle-item:nth-child(1) .vehicle-item-overlay {
+         padding: 45px 35px 35px;
+         height: 120px;
+     }
+
+     .vehicle-item:nth-child(1) .vehicle-item-title {
+         font-size: 32px;
+     }
+
+     .vehicle-item:nth-child(2) .vehicle-item-title {
+         font-size: 28px;
+     }
+
+     .vehicle-item:nth-child(2) .vehicle-item-overlay {
+         padding: 30px 20px 45px;
+         height: 240px;
+     }
+
+     .vehicle-item:nth-child(2) .vehicle-item-controls {
+         flex-direction: column;
+     }
+
+     .vehicle-item:nth-child(2) .control-link {
+         position: relative;
+         right: 30px;
+     }
+
+     .vehicle-item:nth-child(2) .control-link-secondary {
+         position: relative;
+         right: 75px;
+     }
+
+     .vehicle-item:nth-child(3) .vehicle-item-title,
+     .vehicle-item:nth-child(4) .vehicle-item-title {
+         font-size: 26px;
+     }
+
+     .vehicle-item:nth-child(5) .vehicle-item-title {
+         font-size: 24px;
+         width: 100%;
+     }
+
+     .vehicle-item:nth-child(1) .vehicle-item-subtitle,
+     .vehicle-item:nth-child(2) .vehicle-item-subtitle {
+         font-size: 17px;
+     }
+
+     .vehicle-item:nth-child(3) .vehicle-item-subtitle,
+     .vehicle-item:nth-child(4) .vehicle-item-subtitle,
+     .vehicle-item:nth-child(5) .vehicle-item-subtitle {
+         font-size: 15px;
+     }
+
+     .vehicle-item:nth-child(3) .vehicle-item-overlay,
+     .vehicle-item:nth-child(4) .vehicle-item-overlay,
+     .vehicle-item:nth-child(5) .vehicle-item-overlay {
+         padding: 30px 20px 35px;
+         height: 240px;
+     }
+
+     .vehicle-item:nth-child(5) .vehicle-item-overlay {
+         height: 250px;
+     }
+
+     .vehicle-item:nth-child(3) .vehicle-item-controls,
+     .vehicle-item:nth-child(4) .vehicle-item-controls,
+     .vehicle-item:nth-child(5) .vehicle-item-controls {
+         flex-direction: column;
+     }
+
+
+     .vehicle-item:nth-child(3) .control-link {
+         position: relative;
+         right: 35px;
+     }
+
+     .vehicle-item:nth-child(4) .control-link,
+     .vehicle-item:nth-child(5) .control-link {
+         position: relative;
+         right: 25px;
+     }
+
+     .vehicle-item:nth-child(3) .control-link-secondary {
+         position: relative;
+         right: 80px;
+     }
+
+     .vehicle-item:nth-child(4) .control-link-secondary,
+     .vehicle-item:nth-child(5) .control-link-secondary {
+         position: relative;
+         right: 70px;
+     }
+
+     /* <!------------ main-992 to up-(width) end -------------> */
+
+
+
+     /*-------------- luxury-car-section -------------*/
+     .luxury-car-wrapper {
+         max-width: 900px;
+         /* Full width for small desktops */
+         padding: 60px 0px;
+         margin: 0 auto;
+         height: 750px;
+     }
+
+     .luxury-car-header h1 {
+         width: 660px;
+         font-size: 40px;
+         font-weight: 500;
+     }
+
+
+     /* Model cards become horizontal layout */
+     .car-model-item {
+         display: flex;
+         flex-direction: row;
+         flex-wrap: wrap;
+         align-items: center;
+         width: 330px;
+         justify-content: space-between;
+         /* Space between text and image */
+         gap: 30px;
+         padding: 20px;
+         margin-top: 80px;
+     }
+
+     .car-model-item img {
+         width: auto;
+         /* Don't stretch image */
+         max-width: 300px;
+         /* Fixed max width for image */
+         margin-bottom: 0;
+         flex-shrink: 0;
+         /* Prevent image from shrinking */
+         order: 2;
+         /* Move image to right side */
+         position: relative;
+         bottom: 210px;
+         left: 50px;
+     }
+
+     #Limousine {
+         width: 45%;
+     }
+
+     #Limousine img {
+         left: 110px;
+     }
+
+     #SUV-Range {
+         position: relative;
+         left: 460px;
+     }
+
+     #SUV-Range img {
+         position: relative;
+         bottom: 210px;
+         left: 130px;
+     }
+
+     #SUV-details {
+         position: relative;
+         /* bottom: 0px; */
+         min-width: 400px
+     }
+
+     #Cabriolets {
+         width: 45%;
+     }
+
+     #Cabriolets img {
+         left: 100px;
+     }
+
+
+     .car-model-details {
+         position: relative;
+         bottom: 0px;
+         text-align: left;
+     }
+
+     .car-model-title {
+         font-size: 32px;
+     }
+
+     /* Buttons become horizontal */
+
+     .luxury-car-actions {
+         display: none;
+     }
+
+     .luxury-car-actions-upper {
+         display: flex;
+         flex-direction: row;
+         position: relative;
+         gap: 30px;
+         bottom: 20px;
+         width: 530px;
+     }
+
+     .luxury-car-btn {
+         font-size: 19px;
+         padding: 16px 15px;
+         font-weight: 500;
+     }
+
+     /*--------------- luxury-car-section-end ---------------*/
+
+
+
+     /*--------------- GLA 200,C 200,GLE 300d-SECTION-START-------------- */
+
+     .car-slider-wrapper {
+         max-width: 980px;
+     }
+
+     .car-card-item {
+         max-width: 380px;
+         padding: 26px;
+     }
+
+     /*----------------- GLA 200,C 200,GLE 300d-SECTION-END --------------*/
+
+
+
+     /* <!------------ Can't find a suitable vehicle?-SECTION -------------> */
+
+     .suitable-vehicle {
+         max-width: 1060px;
+     }
+
+     .suitable-text p {
+         width: 100%;
+         font-size: 12px;
+     }
+
+     /* <!-------------- Can't find a suitable vehicle?-END ----------> */
+
+
+
+     /* <!----------- Service and accessories-SECTION ------------> */
+     .service-area {
+         max-width: 900px;
+         margin: 0 auto;
+         margin-top: 90px;
+         /* margin-left: 10px; */
+     }
+
+     .service-title {
+         margin-left: 20px;
+     }
+
+     .service-slide {
+         min-width: 50%;
+     }
+
+     /* two visible */
+     .service-img {
+         height: 240px
+     }
+
+     .arrow-btn {
+         top: 45%;
+     }
+
+     .arrow-left {
+         left: 30px
+     }
+
+     .arrow-right {
+         right: 30px
+     }
+
+     /* hide third dot visually */
+     .service-dots button:nth-child(3) {
+         display: none
+     }
+
+     /* <!------------ Service and accessories-END ------------>  */
+
+
+
+     /* <!---------- DEFINING CLASS since 1886-SECTION-START --------> */
+     .outer-box {
+         max-width: 930px;
+         padding: 0 30px;
+     }
+
+     .section-flex {
+         flex-direction: row;
+         gap: 32px;
+         align-items: center;
+         justify-content: space-between;
+     }
+
+     .mini-head {
+         font-size: 28px;
+         margin-bottom: 20px;
+     }
+
+     .sub-para {
+         width: 90%;
+     }
+
+     .text-area {
+         flex: 0 0 48%;
+     }
+
+     .video-btn {
+         margin: 0;
+         width: 150px;
+         position: relative;
+         top: 25px;
+     }
+
+     .txt-below-btn {
+         display: block;
+     }
+
+     .video-lower-btn {
+         display: none;
+     }
+
+     .video-box {
+         flex: 0 0 48%;
+     }
+
+     .video-box video {
+         height: 380px;
+     }
+
+     /* <!----------- DEFINING CLASS since 1886-SECTION-END -----------> */
+
+
+
+     /* <!----------- History and brand world-SECTION-START --------> */
+     .section-flex-2 {
+         flex-direction: row-reverse;
+     }
+
+     .text-area-2 {
+         position: relative;
+         left: 60px;
+     }
+
+     /* <!------------ History and brand world-SECTION-END ----------> */
+
+
+
+     /* <!------------ Disclaimer-SECTION-START ------------> */
+     .disclaimer-container {
+         max-width: 960px;
+         padding: 0 45px;
+         margin: 0 auto;
+     }
+
+     .disclaimer-title {
+         font-size: 20px;
+     }
+
+     .disclaimer-text {
+         font-size: 15.5px;
+     }
+
+     /* <!-------------- Disclaimer-SECTION-END -----------> */
+
+
+
+     /* <!----------- Services-SECTION-START ------------> */
+
+     .svc-container {
+         max-width: 900px;
+     }
+
+     .svc-cards-grid {
+         grid-template-columns: repeat(2, 1fr);
+         gap: 20px;
+     }
+
+     .svc-card {
+         padding: 30px 20px;
+     }
+
+     .svc-card-title {
+         font-size: 18px;
+     }
+
+     .svc-card-description {
+         font-size: 14px;
+     }
+
+     /* <!------------ Services-SECTION-END -------------> */
+
+
+     /* <!--------FOOTER-SECTION-START---------> */
+     footer {
+         padding: 60px 40px;
+     }
+
+     .footer-container {
+         grid-template-columns: repeat(4, 1fr);
+     }
+
+     .footer-container {
+         gap: 50px;
+     }
+
+     .footer-container {
+         padding: 0 40px;
+     }
+
+     .sticky-buttons {
+         right: 50px;
+     }
+
+     .sticky-buttons {
+         bottom: 70px;
+     }
+
+     .sticky-btn {
+         width: 56px;
+     }
+
+     .sticky-btn {
+         height: 56px;
+     }
+
+     .sticky-btn {
+         font-size: 28px;
+     }
+
+     /* <!----------FOOTER-SECTION-END--------> */
+ }
+
+
+
+ /* X-Large devices (large desktops, 1200px and up)*/
+ @media (min-width: 1200px) {
+   /* <!----------------Navbar-Start-----------------> */
+     .navbar {
+         padding: 24px 40px;
+         height: 100px;
+     }
+
+     .navbar-right {
+         padding-right: 10px;
+     }
+
+     .star-icon,
+     .location-icon,
+     .user-icon {
+         font-size: 24px;
+         width: 40px;
+         height: 40px;
+     }
+
+     .logo-icon {
+         margin-top: -10px;
+         margin-left: 180px;
+     }
+
+     .private-1 {
+         color: white;
+         display: block;
+         font-size: 14px;
+         padding-left: 0px;
+         padding-right: 20px;
+         font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+     }
+
+
+     .sidebar-menu {
+         max-width: 600px;
+     }
+
+     /* <!-- header-start --> */
+     .menu-header {
+         padding: 50px 30px 0px 30px;
+     }
+
+     .menu-title {
+         font-size: 32px;
+     }
+
+     .search-box {
+         padding: 14px 22px;
+         margin: 40px;
+     }
+
+     .menu-item {
+         padding: 22px 0;
+     }
+
+     .menu-item-text {
+         font-size: 19px;
+     }
+       /* <!----------------Navbar-END-----------------> */
+
+     /* <!-- header-start --> */
+     .img-992-1200 {
+         display: none;
+     }
+
+     .img-1200-1400 {
+         display: block;
+     }
+
+     .card-text {
+         /* position: relative;
+         top: -390px; */
+         margin-top: -90px;
+         margin-left: 30px;
+     }
+
+     .card-text h1 {
+         width: 35%;
+         font-size: 50px;
+         line-height: 60px;
+     }
+
+     .btn {
+         position: relative;
+         border-radius: 2px;
+         width: 180px;
+         font-size: 16px;
+     }
+
+     .center-btn {
+         display: none;
+     }
+
+     .left-btn {
+         display: block;
+     }
+
+     /* <!--============== CAR-CHOICE-START=============--> */
+     .car-choice {
+         /* position: sticky;
+         top: 0; */
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         position: relative;
+         bottom: 201px;
+         width: 400px;
+     }
+
+     .brand svg:first-child {
+         width: 120px;
+         padding-left: 4px;
+     }
+
+     .brand img {
+         margin-top: -5px;
+         width: 100px;
+         height: 47px;
+         padding-left: 10px;
+     }
+
+     /* <!--============== CAR-CHOICE-START=============--> */
+
+     /* <!--------------- header-end ---------------> */
+
+
+
+     /*-------------- main-start --------------*/
+     .main-card {
+         flex: 0 0 calc(33.333% - 8px);
+         min-height: 520px;
+     }
+
+     .card-image {
+         height: 320px;
+     }
+
+     .carousel-nav {
+         width: 44px;
+         height: 44px;
+     }
+
+     /*---------------- main-end ---------------*/
+
+
+     /* <!-- main-992 to up-(width) start --> */
+     .recommendations-container {
+         max-width: 1080px;
+         margin: 0 auto;
+         margin-top: 60px;
+     }
+
+     .recommendations-grid {
+         grid-template-columns: repeat(6, 1fr);
+         gap: 28px;
+     }
+
+     .vehicle-item:nth-child(1) {
+         grid-column: span 4;
+         min-height: 450px;
+         width: 700px;
+     }
+
+     .vehicle-item:nth-child(2) {
+         grid-column: span 2;
+         min-height: 450px;
+     }
+
+     .vehicle-item:nth-child(3) {
+         grid-column: span 2;
+         min-height: 400px;
+         width: 97%;
+     }
+
+     .vehicle-item:nth-child(4) {
+         grid-column: span 2;
+         min-height: 400px;
+         position: relative;
+         left: 0;
+         width: 97%;
+     }
+
+     .vehicle-item:nth-child(5) {
+         grid-column: span 2;
+         min-height: 400px;
+     }
+
+     .vehicle-item:nth-child(1) .vehicle-item-overlay,
+     .vehicle-item:nth-child(2) .vehicle-item-overlay {
+         padding: 50px 40px 40px;
+         min-height: 240px;
+     }
+
+     .vehicle-item:nth-child(2) .vehicle-item-title {
+         font-size: 28px;
+     }
+
+     .vehicle-item:nth-child(2) .vehicle-item-overlay {
+         padding: 30px 30px 45px;
+         height: 240px;
+     }
+
+     .vehicle-item:nth-child(2) .vehicle-item-controls {
+         flex-direction: column;
+     }
+
+     .vehicle-item:nth-child(2) .control-link {
+         position: relative;
+         right: 45px;
+     }
+
+     .vehicle-item:nth-child(2) .control-link-secondary {
+         position: relative;
+         right: 90px;
+     }
+
+     .vehicle-item:nth-child(1) .vehicle-item-title {
+         font-size: 36px;
+     }
+
+     .vehicle-item:nth-child(3) .vehicle-item-title,
+     .vehicle-item:nth-child(4) .vehicle-item-title {
+         font-size: 26px;
+     }
+
+     .vehicle-item:nth-child(5) .vehicle-item-title {
+         font-size: 24px;
+         width: 100%;
+     }
+
+     .vehicle-item:nth-child(3) .vehicle-item-subtitle,
+     .vehicle-item:nth-child(4) .vehicle-item-subtitle,
+     .vehicle-item:nth-child(5) .vehicle-item-subtitle {
+         font-size: 15px;
+     }
+
+     .vehicle-item:nth-child(3) .vehicle-item-overlay,
+     .vehicle-item:nth-child(4) .vehicle-item-overlay,
+     .vehicle-item:nth-child(5) .vehicle-item-overlay {
+         padding: 30px 30px 35px;
+         height: 240px;
+     }
+
+     .vehicle-item:nth-child(5) .vehicle-item-overlay {
+         height: 250px;
+     }
+
+     .vehicle-item:nth-child(3) .vehicle-item-controls,
+     .vehicle-item:nth-child(4) .vehicle-item-controls,
+     .vehicle-item:nth-child(5) .vehicle-item-controls {
+         flex-direction: column;
+     }
+
+
+     .vehicle-item:nth-child(3) .control-link {
+         position: relative;
+         right: 41px;
+     }
+
+     .vehicle-item:nth-child(4) .control-link,
+     .vehicle-item:nth-child(5) .control-link {
+         position: relative;
+         right: 41px;
+     }
+
+     .vehicle-item:nth-child(3) .control-link-secondary {
+         position: relative;
+         right: 85px;
+     }
+
+     .vehicle-item:nth-child(4) .control-link-secondary,
+     .vehicle-item:nth-child(5) .control-link-secondary {
+         position: relative;
+         right: 85px;
+     }
+
+     /* <!----------- main-992 to up-(width) end -----------> */
+
+
+
+
+     /*------------- luxury-car-section -------------*/
+     .luxury-car-wrapper {
+         max-width: 1080px;
+         /* Full width for desktops */
+         padding: 70px 0px;
+     }
+
+
+     /* Model cards become horizontal layout */
+     .car-model-item {
+         display: flex;
+         flex-direction: row;
+         flex-wrap: wrap;
+         align-items: center;
+         width: 330px;
+         justify-content: space-between;
+         /* Space between text and image */
+         gap: 30px;
+         padding: 20px;
+         margin-top: 80px;
+     }
+
+     .car-model-item img {
+         width: auto;
+         /* Don't stretch image */
+         max-width: 300px;
+         /* Fixed max width for image */
+         margin-bottom: 0;
+         flex-shrink: 0;
+         /* Prevent image from shrinking */
+         order: 2;
+         /* Move image to right side */
+         position: relative;
+         bottom: 210px;
+         left: 50px;
+     }
+
+     #Limousine {
+         width: 46%;
+     }
+
+     #Limousine img {
+         left: 200px;
+     }
+
+     #SUV-Range {
+         width: 48%;
+         position: relative;
+         left: 550px;
+     }
+
+     #SUV-Range img {
+         position: relative;
+         bottom: 210px;
+         left: 210px;
+     }
+
+     #SUV-details {
+         position: relative;
+         /* bottom: 0px; */
+         min-width: 400px
+     }
+
+     #Cabriolets {
+         width: 46%;
+     }
+
+     #Cabriolets img {
+         left: 200px;
+     }
+
+
+     .car-model-details {
+         position: relative;
+         bottom: 0px;
+         text-align: left;
+     }
+
+     .car-model-title {
+         font-size: 32px;
+     }
+
+     /* Buttons become horizontal */
+
+     .luxury-car-actions {
+         display: none;
+     }
+
+     .luxury-car-actions-upper {
+         display: flex;
+         flex-direction: row;
+         position: relative;
+         gap: 30px;
+         bottom: 20px;
+         width: 530px;
+     }
+
+     .luxury-car-btn {
+         font-size: 19px;
+         padding: 16px 15px;
+         font-weight: 500;
+     }
+
+     /*---------------- luxury-car-section-end --------------*/
+
+
+
+     /*-------------- GLA 200,C 200,GLE 300d-SECTION-START----------- */
+     .car-slider-wrapper {
+         max-width: 1200px;
+     }
+
+     .car-cards-row {
+         width: 29%;
+         height: 590px;
+         justify-content: center;
+     }
+
+     .car-card-item {
+         display: block !important;
+         /* show all */
+         flex: 0 0 32%;
+         max-width: 32%;
+     }
+
+     /* Hide both nav bars */
+     .car-nav-mobile,
+     .car-nav-tablet {
+         display: none !important;
+     }
+
+     .car-card-item {
+         max-width: 400px;
+         padding: 28px;
+     }
+
+     .car-card-title {
+         position: relative;
+         bottom: 50px;
+     }
+
+     .car-card-title-2 {
+         position: relative;
+         top: -35px;
+     }
+
+     .car-card-meta-2 {
+         position: relative;
+         top: 15px;
+     }
+
+     .car-card-warning {
+         position: relative;
+         top: 10px;
+     }
+
+     .car-card-warning-2 {
+         position: relative;
+         top: 23px;
+     }
+
+     .car-card-features {
+         position: relative;
+         top: 30px;
+     }
+
+     .car-card-features-2 {
+         position: relative;
+         top: 45px;
+     }
+
+     hr {
+         position: relative;
+         top: 50px;
+     }
+
+     .hr-2 {
+         position: relative;
+         top: 65px;
+     }
+
+     .car-card-cta {
+         position: relative;
+         top: 70px;
+     }
+
+     .cta-2 {
+         position: relative;
+         top: 85px;
+     }
+
+
+     /*------------ GLA 200,C 200,GLE 300d-SECTION-END ----------*/
+
+
+
+     /* <!------------ Service and accessories-SECTION ------------> */
+
+     .service-area {
+         max-width: 1080px;
+         margin: 0 auto;
+         margin-top: 90px;
+         /* margin-left: 10px; */
+     }
+
+     .service-title {
+         margin-left: 20px;
+     }
+
+     .service-img {
+         height: 280px
+     }
+
+     .arrow-btn {
+         top: 47%;
+     }
+
+     .arrow-left {
+         left: 30px
+     }
+
+     .arrow-right {
+         right: 30px
+     }
+
+     /* <!------------- Service and accessories-END ------------> */
+
+
+
+     /* <!----------- DEFINING CLASS since 1886-SECTION-START ------------> */
+     .outer-box {
+         max-width: 1120px;
+     }
+
+     .video-btn {
+         position: relative;
+         top: 20px;
+     }
+
+     .video-box video {
+         height: 400px;
+     }
+
+
+     /* <!----------- DEFINING CLASS since 1886-SECTION-END ------------> */
+
+
+     /* <!--------------- Disclaimer-SECTION-START --------------> */
+     .disclaimer-container {
+         max-width: 1150px;
+         padding: 0 45px;
+         margin: 0 auto;
+     }
+
+     .disclaimer-title {
+         font-size: 21px;
+     }
+
+     .disclaimer-text {
+         font-size: 16px;
+     }
+
+     /* <!------------- Disclaimer-SECTION-END --------------> */
+
+
+
+     /* <!------------- Services-SECTION-START --------------> */
+
+     .svc-container {
+         max-width: 1100px;
+     }
+
+     .svc-cards-grid {
+         grid-template-columns: repeat(4, 1fr);
+         gap: 20px;
+     }
+
+     .svc-card {
+         padding: 35px 25px;
+     }
+
+
+     .svc-card-title {
+         font-size: 19px;
+     }
+
+     .svc-card-description {
+         font-size: 15px;
+     }
+
+     /* <!---------- Services-SECTION-END--------------> */
+
+
+
+     /* <!--------FOOTER-SECTION-START---------> */
+     footer {
+         padding: 60px 50px;
+     }
+
+     .footer-container {
+         grid-template-columns: repeat(5, 1fr);
+     }
+
+     .footer-container {
+         gap: 60px;
+     }
+
+     .footer-container {
+         padding: 0 50px;
+     }
+
+     .sticky-buttons {
+         right: 60px;
+     }
+
+     .sticky-buttons {
+         bottom: 80px;
+     }
+
+     .sticky-btn {
+         width: 56px;
+     }
+
+     .sticky-btn {
+         height: 56px;
+     }
+
+     .sticky-btn {
+         font-size: 28px;
+     }
+
+     /* <!----------FOOTER-SECTION-END--------> */
+ }
+
+
+
+ /* XX-Large devices (larger desktops, 1400px and up)*/
+ @media (min-width: 1400px) {
+
+ /* <!----------------Navbar-Start-----------------> */
+     .navbar {
+         padding: 15px 40px;
+         height: 84px;
+     }
+
+     .list-item {
+         display: flex;
+         font-size: 16px;
+         color: #e8e8e8;
+         list-style: none;
+         gap: 50px;
+         margin-top: 16px;
+         justify-content: center;
+         align-items: center;
+         font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+     }
+
+
+     .hamburger-btn {
+         display: none;
+     }
+
+     .navbar-right {
+         display: flex;
+         gap: 20px;
+         align-items: center;
+         padding-right: 10px;
+     }
+
+     .star-icon,
+     .location-icon,
+     .user-icon {
+         font-size: 20px;
+         width: 35px;
+         height: 35px;
+     }
+
+     .star-icon-right {
+         font-size: 25px;
+     }
+
+
+     .logo-icon {
+         margin-top: -8px;
+         margin-left: 50px;
+     }
+
+     .search-icon {
+         display: block;
+         background: none;
+         height: 30px;
+         margin-right: 10px;
+     }
+
+     .sidebar-menu {
+         max-width: 650px;
+     }
+
+     .private-1 {
+         color: white;
+         display: block;
+         font-size: 12px;
+         padding-left: 0px;
+         padding-right: 40px;
+         font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+     }
+
+     .provider {
+         display: block;
+         color: white;
+         font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+     }
+     
+
+     .menu-header {
+         padding: 50px 30px 0px 30px;
+     }
+
+     .menu-title {
+         font-size: 34px;
+     }
+
+     .search-box {
+         padding: 15px 25px;
+         margin: 45px;
+     }
+
+     .search-box input {
+         font-size: 16px;
+     }
+
+     .menu-item {
+         padding: 24px 0;
+     }
+
+     .menu-item-text {
+         font-size: 20px;
+     }
+     /* <!----------------Navbar-END-----------------> */
+
+
+
+     /* <!------------ header-start ------------------> */
+
+     .card-text {
+         position: relative;
+         top: -400px;
+     }
+
+     .btn {
+         position: relative;
+         border-radius: 2px;
+         width: 180px;
+         font-size: 16px;
+     }
+
+     .center-btn {
+         display: none;
+     }
+
+     .left-btn {
+         display: block;
+     }
+
+     /* <!-------------- header-end -------------------> */
+
+
+
+     /* <!--============== CAR-CHOICE-START============--> */
+     .car-choice {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         position: relative;
+         /* bottom: 230px; */
+         width: 500px;
+     }
+
+     .brand {
+         border: 1px solid gray;
+         width: 300px;
+         height: 60px;
+     }
+
+     .brand svg:first-child {
+         width: 155px;
+
+     }
+
+     .brand img {
+         margin-top: -5px;
+         width: 115px;
+         height: 60px;
+         padding-left: 30px;
+     }
+
+     .brand:first-child {
+         display: none;
+     }
+
+     .svg-1400 {
+         display: block;
+     }
+
+     /* <!--============== CAR-CHOICE-END=============--> */
+
+     /* <!--------------- header-end ----------------> */
+
+
+
+     /*--------------- main-start -------------*/
+     .main-card {
+         flex: 0 0 calc(33.333% - 8px);
+         min-height: 540px;
+     }
+
+     .card-image {
+         height: 340px;
+     }
+
+     /*---------------- main-end --------------*/
+
+
+     /* <!---------- main-992 to up-(width) start ------------> */
+     .recommendations-container {
+         max-width: 1270px;
+         margin: 0 auto;
+         margin-top: 60px;
+     }
+
+     .recommendations-heading {
+         font-size: 48px;
+         margin-bottom: 50px;
+     }
+
+     .recommendations-grid {
+         grid-template-columns: repeat(2, 1fr);
+         gap: 32px;
+     }
+
+     .vehicle-item:nth-child(1) {
+         grid-column: 1;
+         grid-row: 1;
+         min-height: 570px;
+         width: 850px;
+     }
+
+     .vehicle-item:nth-child(2) {
+         grid-column: 2;
+         grid-row: 1;
+         min-height: 570px;
+         width: 400px;
+     }
+
+     .vehicle-item:nth-child(3) {
+         grid-column: 1;
+         grid-row: 2;
+         min-height: 570px;
+         display: grid;
+         grid-template-columns: repeat(1, 1fr);
+         gap: 32px;
+         width: 48%;
+     }
+
+     .vehicle-item:nth-child(4) {
+         grid-column: 1;
+         grid-row: 2;
+         min-height: 570px;
+         width: 48%;
+         position: relative;
+         left: 440px;
+     }
+
+     .vehicle-item:nth-child(5) {
+         grid-column: 2;
+         grid-row: 2;
+         min-height: 570px;
+         width: 400px;
+         margin-left: 0px;
+     }
+
+     .vehicle-item-controls {
+         flex-direction: row;
+     }
+
+     .vehicle-item:nth-child(1) .vehicle-item-overlay {
+         padding: 55px 45px 45px;
+         min-height: 260px;
+     }
+
+     .vehicle-item:nth-child(3) .vehicle-item-overlay,
+     .vehicle-item:nth-child(4) .vehicle-item-overlay {
+         padding: 45px 35px 32px;
+         height: 280px;
+     }
+
+     .vehicle-item:nth-child(5) .vehicle-item-overlay {
+         padding: 45px 35px 32px;
+         height: 280px;
+     }
+
+     .vehicle-item:nth-child(1) .vehicle-item-title,
+     .vehicle-item:nth-child(2) .vehicle-item-title {
+         font-size: 40px;
+     }
+
+     .vehicle-item:nth-child(3) .vehicle-item-title,
+     .vehicle-item:nth-child(4) .vehicle-item-title,
+     .vehicle-item:nth-child(5) .vehicle-item-title {
+         font-size: 30px;
+     }
+
+     .vehicle-item:nth-child(1) .vehicle-item-subtitle,
+     .vehicle-item:nth-child(2) .vehicle-item-subtitle {
+         font-size: 18px;
+         margin-bottom: 28px;
+     }
+
+     .vehicle-item:nth-child(2) .vehicle-item-overlay {
+         padding: 30px 30px 35px;
+         height: 270px;
+     }
+
+     .vehicle-item:nth-child(2) .vehicle-item-controls {
+         flex-direction: column;
+     }
+
+     .vehicle-item:nth-child(2) .control-link {
+         position: relative;
+         top: 40px;
+         right: 75px;
+     }
+
+     .vehicle-item:nth-child(2) .control-link-secondary {
+         position: relative;
+         left: 90px;
+         top: -20px;
+         font-size: 16px;
+     }
+
+     .vehicle-item:nth-child(3) .vehicle-item-subtitle,
+     .vehicle-item:nth-child(4) .vehicle-item-subtitle,
+     .vehicle-item:nth-child(5) .vehicle-item-subtitle {
+         font-size: 16px;
+         margin-bottom: 26px;
+     }
+
+
+     .vehicle-item:nth-child(3) .control-link,
+     .vehicle-item:nth-child(4) .control-link,
+     .vehicle-item:nth-child(5) .control-link {
+         position: relative;
+         top: 40px;
+         right: 75px;
+     }
+
+     .vehicle-item:nth-child(3) .control-link-secondary,
+     .vehicle-item:nth-child(4) .control-link-secondary,
+     .vehicle-item:nth-child(5) .control-link-secondary {
+         position: relative;
+         left: 90px;
+         top: -20px;
+         font-size: 16px;
+     }
+
+     /* <!------------ main-992 to up-(width) end --------> */
+
+
+     /*------------- luxury-car-section--------------*/
+     .luxury-car-wrapper {
+         max-width: 1270px;
+         /* Full width for large desktops */
+         padding: 80px 0px;
+     }
+
+     .luxury-car-header h1 {
+         font-size: 38px;
+     }
+
+     .car-model-item {
+         gap: 60px;
+         padding: 35px 45px 45px 25px;
+         height: 130px;
+     }
+
+     .car-model-item img {
+         max-width: 300px;
+         position: relative;
+         bottom: 240px;
+         left: 50px;
+         /* Maximum image size */
+     }
+
+     .car-model-title {
+         font-size: 30px;
+     }
+
+     .car-model-subtitle {
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         font-size: 17px;
+     }
+
+     #Limousine {
+         width: 31%;
+     }
+
+     #Limousine img {
+         bottom: 240px;
+         left: 85px;
+     }
+
+     #SUV-Range {
+         width: 32%;
+         position: relative;
+         bottom: 210px;
+         left: 425px;
+     }
+
+     #SUV-Range img {
+         position: relative;
+         bottom: 235px;
+         left: 110px;
+         width: 280px;
+     }
+
+     #SUV-details {
+         position: relative;
+         /* bottom: 0px; */
+         min-width: 400px
+     }
+
+     #Cabriolets {
+         width: 33%;
+         bottom: 420px;
+         left: 860px;
+     }
+
+     #Cabriolets img {
+         left: 110px;
+         bottom: 280px;
+     }
+
+
+     .luxury-car-actions-upper {
+         display: flex;
+         flex-direction: row;
+         position: relative;
+         gap: 30px;
+         bottom: 20px;
+         width: 530px;
+     }
+
+     .luxury-car-btn {
+         font-size: 19px;
+         padding: 16px 15px;
+         font-weight: 500;
+     }
+
+     /*----------------- luxury-car-section-end --------------*/
+
+
+
+     /*------------- GLA 200,C 200,GLE 300d-SECTION-START -----------*/
+     .car-slider-wrapper {
+         max-width: 1320px;
+         position: relative;
+         bottom: 110px;
+
+     }
+
+     .car-cards-row {
+         height: 550px;
+         width: 32%;
+     }
+
+     .car-card-item {
+         max-width: 400px;
+         padding: 28px;
+     }
+
+     .car-card-image-2 {
+         position: relative;
+         bottom: 65px;
+     }
+
+     .car-card-title {
+         position: relative;
+         bottom: 50px;
+     }
+
+     .car-card-title-2 {
+         position: relative;
+         bottom: 40px;
+     }
+
+     .car-card-meta-2 {
+         position: relative;
+         top: 15px;
+     }
+
+
+     .car-card-warning {
+         position: relative;
+         top: 10px;
+     }
+
+     .car-card-warning-2 {
+         position: relative;
+         top: 25px;
+     }
+
+     .car-card-features {
+         position: relative;
+         top: 30px;
+     }
+
+     .car-card-features-2 {
+         position: relative;
+         top: 45px;
+     }
+
+     hr {
+         position: relative;
+         top: 50px;
+     }
+
+     .hr-2 {
+         position: relative;
+         top: 65px;
+     }
+
+     .car-card-cta {
+         position: relative;
+         top: 70px;
+     }
+
+     .cta-2 {
+         position: relative;
+         top: 85px;
+     }
+
+     /*------------- GLA 200,C 200,GLE 300d-SECTION-END ------------*/
+
+
+
+     /* <!----- Can't find a suitable vehicle?-SECTION -----> */
+     .suitable-vehicle {
+         position: relative;
+         bottom: 80px;
+         padding: 20px 10px;
+         max-width: 1270px;
+     }
+
+     .suitable-text h6 {
+         font-size: 20px;
+     }
+
+     .suitable-text {
+         padding: 5px 20px;
+     }
+
+
+     /* <!----------- Can't find a suitable vehicle?-END -----> */
+
+
+
+     /* <!------------ Service and accessories-SECTION ---------> */
+
+     .service-area {
+         max-width: 1300px;
+         margin: 0 auto;
+         margin-top: 70px;
+     }
+
+     .service-slide {
+         min-width: 50%;
+         padding: 17px;
+         margin: 0 auto;
+     }
+
+     .service-title {
+         margin-left: 20px;
+     }
+
+     .service-img {
+         height: 390px
+     }
+
+     .arrow-btn {
+         top: 55%;
+     }
+
+     .arrow-left {
+         left: 30px
+     }
+
+     .arrow-right {
+         right: 30px
+     }
+
+     /* <!------------- Service and accessories-END -------------> */
+
+
+
+     /* <!----------- DEFINING CLASS since 1886-SECTION-START ----------> */
+     .outer-box {
+         max-width: 1330px;
+     }
+
+     .mini-head {
+         font-size: 40px;
+     }
+
+     .video-btn {
+         position: relative;
+         top: 45px;
+     }
+
+     .video-box video {
+         height: 450px;
+     }
+
+     /* <!------------ DEFINING CLASS since 1886-SECTION-END --------> */
+
+
+
+     /* <!----------- Disclaimer-SECTION-START -----------> */
+     .disclaimer-container {
+         max-width: 1360px;
+         margin: 0 auto;
+     }
+
+     .disclaimer-title {
+         font-size: 22px;
+     }
+
+     .disclaimer-text {
+         font-size: 13px;
+     }
+
+     /* <!------------- Disclaimer-SECTION-END --------------> */
+
+
+
+
+     /* <!-------------- Services-SECTION-START --------------> */
+
+     .svc-container {
+         max-width: 1300px;
+         position: relative;
+         top: 110px;
+     }
+
+     .svc-cards-grid {
+         grid-template-columns: repeat(4, 1fr);
+         gap: 25px;
+     }
+
+     .svc-card {
+         padding: 40px 30px;
+     }
+
+     .svc-card-icon {
+         /* width: 50px;
+         height: 50px; */
+         /* font-size: 24px; */
+         margin-bottom: 20px;
+     }
+
+     .svc-card-title {
+         font-size: 20px;
+         margin-bottom: 12px;
+     }
+
+     .svc-card-description {
+         font-size: 16px;
+     }
+
+     /* <!-------------- Services-SECTION-END -----------------> */
+
+
+
+     /* <!--------FOOTER-SECTION-START---------> */
+     footer {
+         padding: 60px 60px;
+     }
+
+     .footer-container {
+         grid-template-columns: repeat(6, 1fr);
+     }
+
+     .footer-container {
+         gap: 70px;
+     }
+
+     .footer-container {
+         padding: 0 60px;
+     }
+
+     .sticky-buttons {
+         right: 70px;
+     }
+
+     .sticky-buttons {
+         bottom: 90px;
+     }
+
+     .sticky-btn {
+         width: 56px;
+     }
+
+     .sticky-btn {
+         height: 56px;
+     }
+
+     .sticky-btn {
+         font-size: 28px;
+     }
+
+     /* <!----------FOOTER-SECTION-END--------> */
+ }
+
+/* for-left-text on HEADER */
+  @media (min-width:1600px) and (max-width:1800px){
+   .card-text{
+    position: relative;
+    top: -450px;
+   }
+  }
+
+
+    @media (min-width:1800px) and (max-width:2000px){
+   .card-text{
+    position: relative;
+    top: -450px;
+   }
+  }
+
+   @media (min-width:2000px) and (max-width:2300px){
+   .card-text{
+    position: relative;
+    top: -450px;
+   }
+  }
+
+   @media (min-width:2300px) and (max-width:2600px){
+   .card-text{
+    position: relative;
+    top: -550px;
+   }
+  }
+
+
+   @media (min-width:2600px) and (max-width:3000px){
+   .card-text{
+    position: relative;
+    top: -650px;
+   }
+  }
+  /* for-left-text on HEADER-END */
+
